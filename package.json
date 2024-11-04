@@ -1,0 +1,33 @@
+{
+  "name": "vue-ts-ant-d",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "ant-design-vue": "^4.2.4",
+    "dayjs": "^1.11.13",
+    "pinia": "^2.2.2",
+    "pinia-plugin-persistedstate": "^4.0.1",
+    "sass": "^1.78.0",
+    "viser-vue": "^2.4.8",
+    "vite-plugin-pages": "^0.32.3",
+    "vite-plugin-vue-layouts": "^0.11.0",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.5",
+    "vxe-table": "^4.7.80"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.5.3",
+    "unplugin-auto-import": "^0.18.3",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}
